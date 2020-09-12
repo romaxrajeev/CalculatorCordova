@@ -1,0 +1,127 @@
+$medium-blue : #88dbff;
+$light-blue : #e2f6ff;
+$dark-blue: #01b2ff;
+$white: #fff;
+$darker-blue: #005980;
+$extrabold: 800;
+$semibold: 600;
+
+$dark-gray : #444141;
+$medium-teal : #09E6E0;
+$light-teal: #C9FFFD;
+$dark-teal: #058C88;
+
+html, body{
+    overflow: hidden;
+    font-family: 'Nunito';
+}
+
+.light-mode{
+    background-color: $white;
+}
+
+.dark-mode{
+    background-color: $dark-gray;
+}
+
+#data{
+    height: 75px;
+    width: 100%;
+    margin-left: 2em;
+    padding-top: 2em;
+    color: $darker-blue;
+    font-weight: $semibold;
+    font-size: 21px;
+}
+
+.data-dark{
+    color: $white !important;
+}
+
+#ans{
+    height: 150px;
+    width: 100%;
+    padding-top: 0.5em;
+    margin-left: 0.75em;
+    color: $darker-blue;
+    font-weight: $extrabold;
+    font-size: 55px;
+}
+
+.ans-dark{
+    color: $white !important;
+}
+
+.btn-light-blue{
+    background-color: $light-blue;
+    border-radius: 10px;
+    text-align: center;
+    width: 68px;
+    height: 68px;
+    color: $darker-blue;
+    font-weight: $extrabold;
+    font-size: 28px;
+}
+
+.btn-medium-blue{
+    background-color: $medium-blue;
+    border-radius: 10px;
+    text-align: center;
+    width: 68px;
+    height: 68px;
+    font-weight: $extrabold;
+    color: $darker-blue;
+    font-size: 28px;
+}
+
+.btn-dark-blue{
+    background-color: $dark-blue;
+    border-radius: 10px;
+    text-align: center;
+    width: 264px;
+    height: 68px;
+    color: $white;
+    font-weight: $extrabold;
+    font-size: 28px;
+}
+
+.clear-btn{
+    width: 165px !important;
+}
+
+.last-col{
+    margin-left: 0.75em;
+}
+
+.btn-dark-teal{
+    background-color: $dark-teal;
+    border-radius: 10px;
+    text-align: center;
+    width: 264px;
+    height: 68px;
+    color: $white !important;
+    font-weight: $extrabold;
+    font-size: 28px;
+}
+
+.btn-medium-teal{
+    background-color: $medium-teal;
+    border-radius: 10px;
+    text-align: center;
+    width: 68px;
+    height: 68px;
+    font-weight: $extrabold;
+    color: $dark-gray;
+    font-size: 28px;
+}
+
+.btn-light-teal{
+    background-color: $light-teal;
+    border-radius: 10px;
+    text-align: center;
+    width: 68px;
+    height: 68px;
+    color: $dark-gray;
+    font-weight: $extrabold;
+    font-size: 28px;
+}
